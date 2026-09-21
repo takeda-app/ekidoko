@@ -1,0 +1,39 @@
+:root {
+  --color-bg: #0f1b2d;
+  --color-surface: #16273f;
+  --color-surface-alt: #1f3350;
+  --color-primary: #ff8a3d;
+  --color-primary-dark: #e06a1c;
+  --color-text: #f4f6fb;
+  --color-text-muted: #a9b6cc;
+  --color-correct: #35c46a;
+  --color-incorrect: #ef5b5b;
+  --color-border: #2c3f5c;
+
+  color-scheme: dark;
+  font-family: 'Hiragino Sans', 'Yu Gothic', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background: var(--color-bg);
+  color: var(--color-text);
+  overscroll-behavior: none;
+}
+
+#root {
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  font-family: inherit;
+}
